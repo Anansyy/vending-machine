@@ -1,0 +1,15 @@
+class VendingMachine:
+    def __init__(self):
+        self.items = {
+            '1': {'name': 'Huushuur', 'price': 3000, 'quantity': 10},
+            '2': {'name': 'oreo', 'price': 1200, 'quantity': 100},
+            '3': {'name': 'bread', 'price': 3950, 'quantity': 25}
+        }
+
+    def display_menu(self):
+        print("Welcome to the Food")
+        print("1. Show available items")
+        print("2. Purchase an item")
+        print("3. Exit")
+
+    

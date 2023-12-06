@@ -3,9 +3,9 @@ class VendingMachine:
         self.items = {
             '1': {'name': 'bicmac', 'price': 6900, 'quantity': 100},
             '2': {'name': 'oreo', 'price': 2500, 'quantity': 100},
-            '3': {'name': 'icecream', 'price': 1500, 'quantity': 100}
-            '4': {'name': 'cheeseburger', 'price': 6000, 'quantity': 100}
-            '5': {'name': 'pizza', 'price': 8000, 'quantity': 100}
+            '3': {'name': 'icecream', 'price': 1500, 'quantity': 100},
+            '4': {'name': 'cheeseburger', 'price': 6000, 'quantity': 100},
+            '5': {'name': 'pizza', 'price': 8000, 'quantity': 100},
             '6': {'name': 'hotdog', 'price': 3000, 'quantity': 100}
             
         }

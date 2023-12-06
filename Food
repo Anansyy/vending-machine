@@ -1,9 +1,13 @@
 class VendingMachine:
     def __init__(self):
         self.items = {
-            '1': {'name': 'Huushuur', 'price': 3000, 'quantity': 10},
-            '2': {'name': 'oreo', 'price': 1200, 'quantity': 100},
-            '3': {'name': 'bread', 'price': 3950, 'quantity': 25}
+            '1': {'name': 'bicmac', 'price': 6900, 'quantity': 100},
+            '2': {'name': 'oreo', 'price': 2500, 'quantity': 100},
+            '3': {'name': 'icecream', 'price': 1500, 'quantity': 100}
+            '4': {'name': 'cheeseburger', 'price': 6000, 'quantity': 100}
+            '5': {'name': 'pizza', 'price': 8000, 'quantity': 100}
+            '6': {'name': 'hotdog', 'price': 3000, 'quantity': 100}
+            
         }
 
     def display_menu(self):
@@ -17,6 +21,8 @@ class VendingMachine:
             '2': {'oreo'},
             '3': {'icecream'},
             '4': {'cheeseburger'}
+            '5': {'pizza'}
+            '6': {'hotdog'}
         }
 
     
